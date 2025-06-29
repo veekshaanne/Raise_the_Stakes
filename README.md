@@ -28,7 +28,11 @@ Help investors and stock market enthusiasts make **smarter, more informed tradin
   - Market Sentiment
 
 ### 2. **LSTM**
-- **LSTM** for short-term trend analysis predictions.
+- **LSTM** for short-term trend analysis predictions:
+    - RaiseTheStakes_LSTM: Using LSTM for price prediction:
+        - For the dataset :0941.HKHKD_Candlestick_1_s_BID_16.06.2025-16.06.2025.csv
+        - Which can be downloaded from https://www.dukascopy.com/trading-tools/widgets/quotes/historical_data_feed
+    - LSTM2: Adding droupout layer in LSTM & training on a bigger dataset
 
 ### 3. **Reinforcement Learning(DQN) + LSTM hybrid**
 - Model acts as an agent that:
