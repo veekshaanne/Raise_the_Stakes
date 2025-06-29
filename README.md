@@ -43,6 +43,7 @@ Help investors and stock market enthusiasts make **smarter, more informed tradin
 ### 3. **Multi Head Axial Attention**
   - CNN
   - RNN
+  - GRU
   - Multi head Attention
   - Axial attention -Unlike lstm this converts the Data to single dimensional format(not actually but traverses the data in 1-D format) which helps to grab the long range dependencies
   - Dataset - FI-2010 dataset-https://etsin.fairdata.fi/dataset/73eb48d7-4dbc-4a10-a52a-da745b47a649
