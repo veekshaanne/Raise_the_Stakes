@@ -44,7 +44,7 @@ Help investors and stock market enthusiasts make **smarter, more informed tradin
   - CNN
   - RNN
   - Multi head Attention
-  - Dataset - FI-2010 dataset
+  - Dataset - FI-2010 dataset-https://etsin.fairdata.fi/dataset/73eb48d7-4dbc-4a10-a52a-da745b47a649
   - ![image](https://github.com/user-attachments/assets/5050febb-0b68-4080-b42a-3e1b53d7cd1a)
   - ![image](https://github.com/user-attachments/assets/49e7f2d3-cbd1-4af0-a1fb-e1bcb2fd70e3)
 
