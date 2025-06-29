@@ -30,7 +30,7 @@ Help investors and stock market enthusiasts make **smarter, more informed tradin
 ### 2. **LSTM**
 - **LSTM** for short-term trend analysis predictions.
 
-### 3. **Reinforcement Learning**
+### 3. **Reinforcement Learning(DQN) + LSTM hybrid**
 - Model acts as an agent that:
   - **-1** = Short (predicts price fall)
   - **0** = Hold
