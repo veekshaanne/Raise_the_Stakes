@@ -17,40 +17,41 @@ Help investors and stock market enthusiasts make **smarter, more informed tradin
 
 ---
 
-## How It Works
 
-### 1. **Data**
-- Collects data from the **National Stock Exchange (NSE) and other historical data extraction sites** at second-level intervals.
-- Extracts financial indicators such as:
-  - Momentum
-  - LFV (Liquidity, Flow, Volume)
-  - Volatility Index (VIX)
-  - Market Sentiment
-
-### 2. **LSTM**
+### 1. **LSTM**
 - **LSTM** for short-term trend analysis predictions:
     - RaiseTheStakes_LSTM: Using LSTM for price prediction:
         - For the dataset :0941.HKHKD_Candlestick_1_s_BID_16.06.2025-16.06.2025.csv
         - Which can be downloaded from https://www.dukascopy.com/trading-tools/widgets/quotes/historical_data_feed
-    - LSTM2: Adding droupout layer in LSTM & training on a bigger dataset
+        - ![image](https://github.com/user-attachments/assets/6615a922-c1f8-4202-b06c-e8bad2296c5d)
 
-### 3. **Reinforcement Learning(DQN) + LSTM hybrid**
+    - LSTM2: Adding droupout layer in LSTM & training on a bigger dataset
+        - ![image](https://github.com/user-attachments/assets/5104f22d-aa6a-4bbc-9430-ed9c05f9f5e7)
+        - Test.csv for testing with the RaiseTheStakes.keras
+
+
+### 2. **Reinforcement Learning(DQN) + LSTM hybrid**
+- For the dataset :0941.HKHKD_Candlestick_1_s_BID_16.06.2025-16.06.2025.csv
 - Model acts as an agent that:
   - **-1** = Short (predicts price fall)
   - **0** = Hold
   - **1** = Long (predicts price rise)
 - Agent receives rewards based on prediction accuracy.
+- ![image](https://github.com/user-attachments/assets/ecf2f027-c95e-4eba-923b-7cb329e72c98)
+
 
 ### 3. **Multi Head Axial Attention**
-- Minimizes a combined loss:
   - CNN
   - RNN
   - Multi head Attention
-
+  - ![image](https://github.com/user-attachments/assets/5050febb-0b68-4080-b42a-3e1b53d7cd1a)
+  - ![image](https://github.com/user-attachments/assets/49e7f2d3-cbd1-4af0-a1fb-e1bcb2fd70e3)
 
 ---
 
 ## 🔍 Similar Projects
 - [pskrunner14/trading-bot](https://github.com/pskrunner14/trading-bot)
 
+## Papers Used
+- https://www.cis.upenn.edu/~mkearns/papers/KearnsNevmyvakaHFTRiskBooks.pdf
 ---
